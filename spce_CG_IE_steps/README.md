@@ -1,4 +1,4 @@
-##Tools to generate Coarse-Grained potentials from intermolecular interaction energy.
+## Tools to generate Coarse-Grained potentials from intermolecular interaction energy.
 
 All necessary scripts to generate the potentials are in ./scripts directory. 
 
@@ -6,7 +6,7 @@ All necessary scripts to generate the potentials are in ./scripts directory.
 Also, here we have included an example to build water CG potentials. 
 
 
-To run the example,
+## To run the example,
 
 The following steps require GROMACS 5.1 or later to run the script. Please start by entering the command:
 
@@ -16,7 +16,9 @@ This command should print out information about the version of GROMACS installed
 
 gmx: command not found.
 
-Set-up Steps:
+
+# Set-up Steps:
+
 cd ./example
 
 chmod +x water_com1.sh
@@ -36,7 +38,7 @@ gmx make_ndx -f water.gro -o water.ndx
 > q
 
 
-##Run the GP-CG Processing:
+## Run the GP-CG Processing:
 
 ./water_com1.sh water.gro 100
 
@@ -49,11 +51,11 @@ Note: by calling water_com.sh, the script will automatically run the following c
 * python mapping.py
 * mv fileout.gro conf_cg.gro
 
-##MD Run:
+## MD Run:
 
 ./water_com2.sh
 
-Note: by calling water_com2.sh, the script will automatically run the following codes: 
+> Note: by calling water_com2.sh, the script will automatically run the following codes: 
 * gmx make_ndx -f conf_cg.gro -o CG.ndx < CG.txt
 * gmx grompp -f CG.mdp -c conf_cg.gro -p topol_CG.top -n CG.ndx -o CG.tpr
 * gmx mdrun -v -s CG.tpr
