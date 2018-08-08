@@ -1,0 +1,6 @@
+del 2
+del 1 
+a  CG
+a  OW | a H*
+name 2 AA
+q 
