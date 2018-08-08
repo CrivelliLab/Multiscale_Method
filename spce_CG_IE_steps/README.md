@@ -1,12 +1,11 @@
-## Tools to generate Coarse-Grained potentials from intermolecular interaction energy.
+## Tools to generate Coarse-Grained potentials from intermolecular interaction energy:
 
 All necessary scripts to generate the potentials are in ./scripts directory. 
-
 
 Also, here we have included an example to build water CG potentials. 
 
 
-## To run the example,
+## To run the water example:
 
 The following steps require GROMACS 5.1 or later to run the script. Please start by entering the command:
 
