@@ -5,7 +5,7 @@ All necessary scripts to generate the potentials are in ./scripts directory.
 
 Also, here we have included an example to build one site water CG potentials. 
 
-To run the example,
+## To run the example,
 
 cd ./example
 
