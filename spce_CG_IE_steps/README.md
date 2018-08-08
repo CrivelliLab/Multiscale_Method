@@ -17,7 +17,7 @@ This command should print out information about the version of GROMACS installed
 gmx: command not found.
 
 
-# Set-up Steps:
+### Set-up Steps:
 
 cd ./example
 
