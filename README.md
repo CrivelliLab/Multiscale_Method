@@ -10,3 +10,6 @@ Here, the atomistic trajectories are analyized to build:
 					- including an example to apply this method to Water molecueles.
 					
 - To calculate the Thermodyanmic force for AdResS method, 
+
+
+- If you have questions, please contact Masa Watanabe [masa.watanabe@stmary.edu]
