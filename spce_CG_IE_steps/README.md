@@ -1,4 +1,4 @@
-## Tools to generate Coarse-Grained potentials from intermolecular interaction energy:
+## Tools to generate Coarse-Grained potentials from intermolecular interaction:
 
 All necessary scripts to generate the potentials are in ./scripts directory. 
 
