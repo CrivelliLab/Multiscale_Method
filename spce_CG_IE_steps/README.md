@@ -29,21 +29,21 @@ gmx make_ndx -f water.gro -o water.ndx
 Run the GP-CG Processing:
 ./water_com1.sh water.gro 100
 Note: by calling water_com.sh, the script will automatically run the following codes: 
-* _perl energy_distance.pl
-* _python GPy_2z.py
-* _python RtoPy2.py
-* _python table.py
-* _mv AA.dat table_CG_CG.xvg
-* _python mapping.py
-* _mv fileout.gro conf_cg.gro
+* perl energy_distance.pl
+* python GPy_2z.py
+* python RtoPy2.py
+* python table.py
+* mv AA.dat table_CG_CG.xvg
+* python mapping.py
+* mv fileout.gro conf_cg.gro
 
 MD Run:
 ./water_com2.sh
 Note: by calling water_com2.sh, the script will automatically run the following codes: 
-* _gmx make_ndx -f conf_cg.gro -o CG.ndx < CG.txt
-* _gmx grompp -f CG.mdp -c conf_cg.gro -p topol_CG.top -n CG.ndx -o CG.tpr
-* _gmx mdrun -v -s CG.tpr
-* _gmx trjconv -f traj_comp.xtc  -s CG.tpr  -o cg_centered.xtc -pbc mol
+* gmx make_ndx -f conf_cg.gro -o CG.ndx < CG.txt
+* gmx grompp -f CG.mdp -c conf_cg.gro -p topol_CG.top -n CG.ndx -o CG.tpr
+* gmx mdrun -v -s CG.tpr
+* gmx trjconv -f traj_comp.xtc  -s CG.tpr  -o cg_centered.xtc -pbc mol
 
 Analysis:
 vmd conf_cg.gro cg_centered.xtc
