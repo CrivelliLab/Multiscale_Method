@@ -1,4 +1,3 @@
-# Multiscale Method
 ## Computational Tools for Adaptive Resolution Molecular Dynamics Simulation 
 
 Here, the atomistic trajectories are analyized to build:
