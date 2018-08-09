@@ -4,9 +4,9 @@
 
 ### Test case #1:
 
-1.) Open and run 'Data_generator' in Jupyter Notebook.
+1.) Open and run `Data_generator` in Jupyter Notebook.
 
-2.) Then, run 'GPtestcase' in Jupyter Notebook.
+2.) Then, run `GPtestcase` in Jupyter Notebook.
 
 
 #### Note:
