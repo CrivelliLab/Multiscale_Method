@@ -2,7 +2,7 @@
 
 Applicability of Gaussian Processing (GP) can be tested by using GP testcase which is provided here.
 
-	GPYTest direcotry contains small python files to test GP.
+	`GPYTest` direcotry contains small python files to test GP.
 
 Here, the atomistic trajectories are analyized to build the followings by using GP:
 
