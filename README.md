@@ -4,7 +4,7 @@ Applicability of Gaussian Processing (GP) can be tested by using GP testcase whi
 
 	GPYTest direcotry contains small python files to test GP.
 
-Here, the atomistic trajectories are analyized to build:
+Here, the atomistic trajectories are analyized to build the followings by using GP:
 
 - Coarse Grained particle based on the centers of mass of the molecules:
 
@@ -14,7 +14,7 @@ Here, the atomistic trajectories are analyized to build:
 		CG_IE_Steps: Coarse-Grained potentials from intermolecular interactions.
 					- including an example to apply this method to Water molecueles.
 					
-- To calculate the Thermodyanmic force for AdResS method, 
+- Thermodyanmic force for AdResS method, 
 		
 		TF_Calculations: All necessary scripts to generate the potentials are in ./scripts directory.
 		
