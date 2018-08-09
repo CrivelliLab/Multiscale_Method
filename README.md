@@ -12,7 +12,8 @@ Here, the atomistic trajectories are analyized to build:
 					
 - To calculate the Thermodyanmic force for AdResS method, 
 		
-		TF_Calculations: All necessary scripts to generate the potentials are in ./scripts directory. 
+		TF_Calculations: All necessary scripts to generate the potentials are in ./scripts directory.
+		
 		Since all necessary tools are written in Python, you can call these codes from ESPResSo++ program.
 		ESPResSo++: [http://www.espresso-pp.de/]
 
