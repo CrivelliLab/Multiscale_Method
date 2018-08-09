@@ -1,11 +1,11 @@
 ## Test case for GP application
 
-> All the codes are made written in Python (in Jupyter file format)
+> All the codes are made written in Python (in Jupyter Notebook format)
 
 ### Test case #1:
 
-1.) Open and run  Data_generator
+1.) Open and run 'Data_generator' in Jupyter Notebook.
 
-2.) Run 'GPtestcase'.
+2.) Then, run 'GPtestcase' in Jupyter Notebook.
 
 
