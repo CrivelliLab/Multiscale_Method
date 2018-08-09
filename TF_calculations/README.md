@@ -15,6 +15,6 @@ To run the example,
 > ./water_CG.sh water.pdb water.xtc
 
 
-# Note:
+### Note:
 > In order to use these tools, users need to generate xtc format trajectory files from GROMACS and a pdb coordinate file for topology. 
 
