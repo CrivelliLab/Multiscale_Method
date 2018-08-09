@@ -1,8 +1,8 @@
-## Calculation for Thermodynamics Force to blance the density profile in the AdResS system.
+## Calculation for Thermodynamics Force to blance the density profile in the AdResS method.
 
 Simple tools to generate Thermodyanamic force for the AdResS method.
 
-All necessary scripts to generate the potentials are in ./scripts directory. Since all necessary tools are written in Python, you can call these codes from ESPResSo++ program (DOI: 10.1016/j.cpc.2012.12.004)
+All necessary scripts to generate the potentials are in ./scripts directory. Since all necessary tools are written in Python, you can call these codes from ESPResSo++ program [![licence](DOI: 10.1016/j.cpc.2012.12.004)
 
 Also, here we have included an example to calculate TF from a water simulation trajectory. 
 
