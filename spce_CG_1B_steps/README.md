@@ -48,7 +48,23 @@ gmx rdf -f traj_comp.xtc -o gR_C.xvg -s CG.tpr -selrpos whole_mol_com -seltype w
 
 xmgrace gR_C.xvg
 
+## Required Libraries:
+* Python
+> numpy
 
+> GPy (https://sheffieldml.github.io/GPy/)
+
+> Ipython
+
+> matplotlib
+
+> math
+
+> groio (https://pypi.org/project/groio/)
+
+> xml
+
+* R
 ## NOTE: 
 You can generate your own RDF from regular atomistic simulation of GROMACS:
 
