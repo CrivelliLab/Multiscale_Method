@@ -9,3 +9,5 @@
 2.) Then, run 'GPtestcase' in Jupyter Notebook.
 
 
+#### Note:
+If you have questions, please contact Zachary Douglas: Zachary.Douglas@my.stmary.edu
