@@ -20,6 +20,10 @@ To run the example,
 
 > scipy
 
+> GPy (https://sheffieldml.github.io/GPy/)
+
+> IPython 
+
 > matplotlib
 
 > math
