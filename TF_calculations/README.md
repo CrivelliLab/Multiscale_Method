@@ -9,8 +9,6 @@ Also, here we have included an example to build one site water CG potentials.
 To run the example,
 
 > cd ./example
-
 > chmod +x water_TF.sh
-
 > ./water_CG.sh water.pdb water.xtc
 
