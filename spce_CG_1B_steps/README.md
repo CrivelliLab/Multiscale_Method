@@ -65,6 +65,7 @@ xmgrace gR_C.xvg
 > xml
 
 * R
+
 ## NOTE: 
 You can generate your own RDF from regular atomistic simulation of GROMACS:
 
