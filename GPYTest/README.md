@@ -1,4 +1,4 @@
-## Test cases for GP applications
+## Test case for GP application
 
 > All the codes are made written in Python (Jupyter file format)
 
