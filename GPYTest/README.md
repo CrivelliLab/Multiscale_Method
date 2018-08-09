@@ -1,13 +1,13 @@
-# Test cases for GP applications
+## Test cases for GP applications
 
 > All the codes are made written in Python
 
-## Test case #1:
+### Test case #1:
 
 1.) Open and run  Data_generator
 2.) Run 'GPtestcase'.
 
-## Test Case #2:
+### Test Case #2:
 
 Actual cas for GP Coarse-grained Potentials.
 
