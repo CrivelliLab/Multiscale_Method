@@ -10,9 +10,9 @@ To run the example,
 
 > cd ./example
 
-> chmod +x water_TF.sh
+> chmod  +x  water_TF.sh
 
-> ./water_CG.sh water.pdb water.xtc
+> ./water_CG.sh  water.pdb  water.xtc
 
 ### Requried Python Libraries:
 
