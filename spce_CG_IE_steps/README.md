@@ -43,7 +43,7 @@ gmx make_ndx -f water.gro -o water.ndx
 
 Note: by calling water_com.sh, the script will automatically run the following codes: 
 * perl energy_distance.pl
-* python GPy_2z.py
+* python GPy_3z.py
 * python RtoPy2.py
 * python table.py
 * mv AA.dat table_CG_CG.xvg
@@ -69,4 +69,23 @@ gmx rdf -f cg_centered.xtc -o gR_C.xvg -s CG.tpr -selrpos whole_mol_com -seltype
 
 xmgrace gR_C.xvg
 
+## Required Programs and Libraries:
+* Perl
+* Python
+> numpy
 
+> scipy
+
+> pandas
+
+> GPy (https://sheffieldml.github.io/GPy/)
+
+> Ipython
+
+> matplotlib
+
+> math
+
+> groio (https://pypi.org/project/groio/)
+
+> xml
