@@ -1,6 +1,6 @@
 ## Test cases for GP applications
 
-> All the codes are made written in Python
+> All the codes are made written in Python (Jupyter file format)
 
 ### Test case #1:
 
