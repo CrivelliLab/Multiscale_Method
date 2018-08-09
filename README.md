@@ -15,6 +15,6 @@ Here, the atomistic trajectories are analyized to build:
 		TF_Calculations: All necessary scripts to generate the potentials are in ./scripts directory.
 		
 		Since all necessary tools are written in Python, you can call these codes from ESPResSo++ program.
-		ESPResSo++: [http://www.espresso-pp.de/]
+		ESPResSo++: [http://www.espresso-pp.de]
 
 - If you have questions, please contact Masa Watanabe [masa.watanabe@stmary.edu]
